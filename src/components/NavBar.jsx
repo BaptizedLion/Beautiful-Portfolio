@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { useEffect } from "react";
 import { useState } from "react";
-
+import { Menu } from "lucide-react";
 const navItems = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
@@ -53,6 +53,9 @@ export const NavBar = () => {
         </div>
 
         {/* mobile nav */}
+
+        <button>{isMenuOpen ? <X size={24} /> : <Menu size={24} />} </button>
+
         <div
           className={cn(
             "fixed inset-0 bg-backgroun/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
@@ -62,12 +65,13 @@ export const NavBar = () => {
               : "opacity-0 pointer-events-none"
           )}
         >
-          <div className="hidden md:flex space-x-8">
+          <div className="flex flex-col space-y-8 text-xl">
             {navItems.map((item, key) => (
               <a
                 key={key}
                 href={item.href}
                 className="text-foreground/80 hover:text-primary transition-colors duration:300"
+                onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
               </a>
