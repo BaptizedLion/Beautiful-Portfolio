@@ -99,7 +99,7 @@ export const ContactSection = () => {
                   className="w-full px-4 py-3 rounded-md
                   border border-input bg-background focus-outline-hidden
                   focus:ring-2 focus:ring-primary"
-                  placeholder="Hey Michael!"
+                  placeholder="John Doe"
                 />
               </div>
 
