@@ -9,7 +9,7 @@ export const Footer = () => {
         reserved.
       </p>
       <a href='#hero'>
-        <ArrowUp />
+        <ArrowUp  size={20}/>
       </a>
     </footer>
   );
