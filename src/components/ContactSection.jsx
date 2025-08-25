@@ -1,7 +1,6 @@
 import { Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "../hooks/use-toast";
-import { Description } from "@radix-ui/react-toast";
 import { useState } from "react";
 
 export const ContactSection = () => {
@@ -89,6 +88,7 @@ export const ContactSection = () => {
                 >
                   <Linkedin />
                 </a>
+                
               </div>
             </div>
           </div>
