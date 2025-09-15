@@ -20,16 +20,16 @@ export const HeroSection = () => {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-1">
-            I am an aspiring software and cloud professional with hands-on
-            experience in data engineering, cloud technologies, and full-stack
-            development. I have completed internships and projects that
-            strengthened my skills in AWS services, database management, backend
-            APIs, and frontend development. I am passionate about building
-            scalable, efficient systems and solving complex technical
-            challenges. I am actively seeking opportunities in cloud support,
-            software development, and data engineering, where I can contribute
-            to impactful projects while continuing to grow my technical
-            expertise.
+            I am an Associate Cloud Support Engineer at Ollion and a recent
+            Computer Science & Systems graduate from the University of
+            Washington. This past summer, I completed an internship at Amazon
+            Web Services as a Cloud Support Associate, where I strengthened my
+            technical and problem-solving skills in cloud technologies. I am
+            passionate about growing my expertise in cloud support while also
+            exploring new opportunities in data science and DevOps. My goal is
+            to continue building a strong foundation in scalable systems,
+            automation, and data-driven solutions to help organizations solve
+            complex challenges.
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-1">
             <a href="#projects" className="cosmic-button">
@@ -40,8 +40,8 @@ export const HeroSection = () => {
       </div>
 
       <div className="absolute bottom-8 left-1/2 transofrm -translate-x-1/2 flex flex-col items-center animate-bounce">
-      <span className="text-sm text-muted-foreground mb-2">Scroll</span>
-      <ArrowDown className="h-5 w-5 text-primary" />
+        <span className="text-sm text-muted-foreground mb-2">Scroll</span>
+        <ArrowDown className="h-5 w-5 text-primary" />
       </div>
     </section>
   );
